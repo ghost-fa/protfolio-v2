@@ -6,7 +6,7 @@ import { Nav, NavItem, NavLink as BsLink } from 'reactstrap';
 const Header = () => {
   return (
     <Fragment>
-      <Nav>
+      <Nav pills>
         <NavItem>
           <NavLink to="/" activeClassName="active" exact>
             Home
