@@ -31,7 +31,7 @@
     "description": "A small game",
     "imageUrl": "/images-project/roll-dice.jpeg",
     "thumbnailUrl": "/images-project/roll-dice.jpeg",
-    "projectUrl": "https://github.com/ghost-fa/tic-tac-game",
+    "projectUrl": "https://github.com/ghost-fa/Roll-Dice",
     "tags": ["javascript", "bootstrap", "css", "html"]
   }
 ]

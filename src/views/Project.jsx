@@ -23,12 +23,12 @@ class Project extends Component {
               <CardBody>
                 <div>
                   {project.tags.map(tag => (
-                    <Badge key={tag} color="primary" pill>
+                    <Badge key={tag} color="primary text-center" pill>
                       {tag}
                     </Badge>
                   ))}
                 </div>
-                <Link className="vtn btn-primary" to={`/projects/${i}`}>
+                <Link className="vtn btn-primary " to={`/projects/${i}`}>
                   see project
                 </Link>
               </CardBody>
