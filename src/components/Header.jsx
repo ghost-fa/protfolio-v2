@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 
 import { NavLink as RRNavLink } from 'react-router-dom';
 import {
@@ -27,17 +27,16 @@ class Header extends Component {
   }
   render() {
     return (
-      <Fragment>
-        <Navbar
-          expand="md"
-          style={{
-            backgroundColor: '#333',
-            borderColor: '#FFF',
-            color: 'white'
-          }}
-        >
+      <Navbar
+        expand="md"
+        style={{
+          backgroundColor: '#333',
+          color: 'white'
+        }}
+      >
+        <div className="container">
           <NavbarBrand to="/">Alkhadra</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
+          <NavbarToggler color="light " onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
@@ -77,8 +76,8 @@ class Header extends Component {
               </NavItem>
             </Nav>
           </Collapse>
-        </Navbar>
-      </Fragment>
+        </div>
+      </Navbar>
     );
   }
 }

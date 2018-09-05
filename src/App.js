@@ -7,6 +7,7 @@ import About from './views/About';
 import Project from './views/Project';
 import Contact from './views/Contact';
 import NotFound from './views/NotFound';
+import Footer from './components/Footer';
 class App extends Component {
   render() {
     return (
@@ -21,6 +22,7 @@ class App extends Component {
 
             <Route component={NotFound} />
           </Switch>
+          <Footer />
         </Fragment>
       </BrowserRouter>
     );
