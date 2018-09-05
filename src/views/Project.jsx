@@ -1,16 +1,10 @@
 import React, { Component, Fragment } from 'react';
 import Berlin from '../images/Berlin6.jpg';
-import Tokyo from '../images/Tokyo.jpg';
-import Paris from '../images/Paris.jpg';
-import Architecture from '../images/Architecture.jpg';
-import {
-  Card,
-  CardImg,
-  CardTitle,
-  CardText,
-  CardDeck,
-  CardBody
-} from 'reactstrap';
+
+import { Card, CardBody, CardTitle, Button, CardDeck, Badge } from 'reactstrap';
+import { Link } from 'react-router-dom';
+import projects from '../projects.json';
+
 class Project extends Component {
   componentDidMount() {
     document.title = 'Project | Fayad Alkhadra';
@@ -18,49 +12,28 @@ class Project extends Component {
   render() {
     return (
       <Fragment>
-        <img width="100%" src={Berlin} className=" img-fluid" alt="" />
-        <CardDeck className="container   m-auto">
-          <div className=" d-flex mt-5 mb-5 ">
-            <Card className=" justify-content-around">
-              <CardImg top width="100%" src={Tokyo} alt="Card image cap" />
+        <img width="100%" src={Berlin} className="mb-5 img-fluid" alt="" />
+        <CardDeck className="container d-flex  justify-content-center m-auto ">
+          {projects.map((project, i) => (
+            <Card key={i}>
               <CardBody>
-                <CardTitle>Tokyo in night</CardTitle>
-                <CardText>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </CardText>
+                <CardTitle>{project.title}</CardTitle>
+              </CardBody>
+              <img width="100%" src={project.thumbnailUrl} />
+              <CardBody>
+                <div>
+                  {project.tags.map(tag => (
+                    <Badge key={tag} color="primary" pill>
+                      {tag}
+                    </Badge>
+                  ))}
+                </div>
+                <Link className="vtn btn-primary" to={`/projects/${i}`}>
+                  see project
+                </Link>
               </CardBody>
             </Card>
-            <Card>
-              <CardImg top width="100%" src={Paris} alt="Card image cap" />
-              <CardBody>
-                <CardTitle>Paris in night</CardTitle>
-
-                <CardText>
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
-                </CardText>
-              </CardBody>
-            </Card>
-            <Card>
-              <CardImg
-                top
-                width="100%"
-                src={Architecture}
-                alt="Card image cap"
-              />
-              <CardBody>
-                <CardTitle>Architecture in night</CardTitle>
-
-                <CardText>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
-                </CardText>
-              </CardBody>
-            </Card>
-          </div>
+          ))}
         </CardDeck>
       </Fragment>
     );

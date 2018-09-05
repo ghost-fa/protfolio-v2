@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Quizzards",
+    "description": "A small Quiz app",
+    "imageUrl": "/images-project/roll-dice.jpeg",
+    "thumbnailUrl": "/images-project/roll-dice.jpeg",
+    "projectUrl": "https://github.com/webup-dci-fbw7/quizzards",
+    "tags": ["OOP", "javascript", "bootstrap", "sass", "css", "html"]
+  },
+
+  {
+    "title": "Tic-Tac-Game",
+    "description": "A small game X and O",
+    "imageUrl": "https://via.placeholder.com/200x200",
+    "thumbnailUrl": "https://via.placeholder.com/200x200",
+    "projectUrl": "https://github.com/webup-dci-fbw7/student-roster",
+    "tags": ["html", "sass", "react", "jsx"]
+  },
+
+  {
+    "title": "Guessing game",
+    "description": "A small game to gusse a number ",
+    "imageUrl": "https://via.placeholder.com/200x200",
+    "thumbnailUrl": "https://via.placeholder.com/200x200",
+    "projectUrl": "https://github.com/webup-dci-fbw7/gussing-game-Switch",
+    "tags": ["javascript", "bootstrap", "css", "html"]
+  },
+
+  {
+    "title": "Roll Dice",
+    "description": "A small game",
+    "imageUrl": "https://via.placeholder.com/200x200",
+    "thumbnailUrl": "https://via.placeholder.com/200x200",
+    "projectUrl": "https://github.com/webup-dci-fbw7/clock-component",
+    "tags": ["javascript", "bootstrap", "css", "html"]
+  }
+]
