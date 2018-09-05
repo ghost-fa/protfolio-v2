@@ -1,19 +1,19 @@
 [
   {
-    "title": "Quizzards",
-    "description": "A small Quiz app",
-    "imageUrl": "/images-project/roll-dice.jpeg",
-    "thumbnailUrl": "/images-project/roll-dice.jpeg",
-    "projectUrl": "https://github.com/webup-dci-fbw7/quizzards",
-    "tags": ["OOP", "javascript", "bootstrap", "sass", "css", "html"]
+    "title": "Shooping Cart List",
+    "description": "A small app to Shooping List",
+    "imageUrl": "/images-project/shopping.jpg",
+    "thumbnailUrl": "/images-project/shopping.jpg",
+    "projectUrl": "https://github.com/ghost-fa/shopping-cart-list",
+    "tags": ["react", "jsx", "bootstrap", "sass", "html"]
   },
 
   {
     "title": "Tic-Tac-Game",
     "description": "A small game X and O",
-    "imageUrl": "https://via.placeholder.com/200x200",
-    "thumbnailUrl": "https://via.placeholder.com/200x200",
-    "projectUrl": "https://github.com/webup-dci-fbw7/student-roster",
+    "imageUrl": "/images-project/tic-tac.jpeg",
+    "thumbnailUrl": "/images-project/tic-tac.jpeg",
+    "projectUrl": "https://github.com/ghost-fa/tic-tac-game",
     "tags": ["html", "sass", "react", "jsx"]
   },
 
@@ -29,9 +29,9 @@
   {
     "title": "Roll Dice",
     "description": "A small game",
-    "imageUrl": "https://via.placeholder.com/200x200",
-    "thumbnailUrl": "https://via.placeholder.com/200x200",
-    "projectUrl": "https://github.com/webup-dci-fbw7/clock-component",
+    "imageUrl": "/images-project/roll-dice.jpeg",
+    "thumbnailUrl": "/images-project/roll-dice.jpeg",
+    "projectUrl": "https://github.com/ghost-fa/tic-tac-game",
     "tags": ["javascript", "bootstrap", "css", "html"]
   }
 ]
