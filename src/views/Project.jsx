@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import Berlin from '../images/Berlin6.jpg';
 
-import { Card, CardBody, CardTitle, Button, CardDeck, Badge } from 'reactstrap';
+import { Card, CardBody, CardTitle, CardDeck, Badge } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import projects from '../projects.json';
 
@@ -19,7 +19,11 @@ class Project extends Component {
               <CardBody>
                 <CardTitle>{project.title}</CardTitle>
               </CardBody>
-              <img width="100%" src={project.thumbnailUrl} />
+              <img
+                width="100%"
+                src={project.thumbnailUrl}
+                alt={project.title}
+              />
               <CardBody>
                 <div>
                   {project.tags.map(tag => (

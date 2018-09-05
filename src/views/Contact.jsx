@@ -17,14 +17,14 @@ class Contact extends Component {
               <input
                 type="text"
                 className="form-control"
-                placeholder="Name"
+                placeholder="Your Name"
                 name="name"
               />
             </div>
             <div className="form-group">
               <label>Email Address</label>
               <input
-                type="email"
+                type="add email"
                 className="form-control"
                 placeholder="TYPE Your Email"
                 name="email"
@@ -34,7 +34,7 @@ class Contact extends Component {
               <label>Massege</label>
               <textarea
                 name="messeag"
-                placeholder="T ype Your Message"
+                placeholder="Type Your Message"
                 className="form-control"
               />
             </div>

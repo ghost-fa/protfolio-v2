@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { NavLink } from 'react-router-dom';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faGithub,
@@ -23,42 +23,42 @@ const Study = () => {
         </p>
         <div className="row  text-center mt-5">
           <div className="col-lg-4 ">
-            <NavLink to="/https://github.com/ghost-fa">
+            <a href="https://github.com/ghost-fa">
               <FontAwesomeIcon
                 className="text-dark display-2"
                 icon={faGithub}
               />
-            </NavLink>
+            </a>
             <p>Github</p>
           </div>
 
-          <div class="col-lg-4">
+          <div className="col-lg-4">
             <FontAwesomeIcon
               className=" text-warning display-2"
               icon={faHtml5}
             />
-            <p class="text-center ">HTML </p>
+            <p className="text-center ">HTML </p>
           </div>
-          <div class="col-lg-4">
+          <div className="col-lg-4">
             <FontAwesomeIcon className="display-2 text-primary" icon={faCss3} />
-            <p class="text-center">css</p>
+            <p className="text-center">css</p>
           </div>
 
-          <div class="col-lg-4 mt-2">
+          <div className="col-lg-4 mt-2">
             <FontAwesomeIcon className="text-danger display-2" icon={faSass} />
           </div>
 
-          <div class="col-lg-4">
-            <NavLink to="https://www.sololearn.com/">
-              <img src={Html} class="img-thumbnail" alt="" />
-            </NavLink>
+          <div className="col-lg-4">
+            <a href="https://www.sololearn.com/">
+              <img src={Html} className="img-thumbnail" alt="Degree Html" />
+            </a>
           </div>
-          <div class="col-lg-4 text-center">
+          <div className="col-lg-4 text-center">
             <FontAwesomeIcon
               className="display-2 col-lg-12 text-center"
               icon={faPhp}
             />
-            <progress class="  " value="35" max="100" />&frac14;
+            <progress value="35" max="100" />&frac14;
           </div>
         </div>
       </main>
