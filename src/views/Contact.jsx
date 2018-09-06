@@ -10,7 +10,7 @@ class Contact extends Component {
       <Fragment>
         <img src={Madred} className="mb-5 img-fluid" alt="Madred" />
 
-        <form className="bg-dark  container m-auto">
+        <form method="POST" action="https://formspree.io/fayyad_r22@yahoo.com" className="bg-dark  container m-auto">
           <div className=" mt-5">
             <div className="form-group">
               <label>Name</label>
@@ -27,7 +27,7 @@ class Contact extends Component {
                 type="add email"
                 className="form-control"
                 placeholder="TYPE Your Email"
-                name="email"
+                name="_replyTo"
               />
             </div>
             <div className="form-group">

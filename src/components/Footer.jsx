@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebookSquare,
   faLinkedin,
-  faGithub
+  faGithub,
+  faInstagram
 } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
@@ -28,8 +29,14 @@ const Footer = () => {
 
                 <a href="https://github.com/ghost-fa">
                   <FontAwesomeIcon
-                    className="text-light pl-2y display-4"
+                    className="text-light pl-2 display-4"
                     icon={faGithub}
+                  />
+                </a>
+                <a href="https://www.instagram.com/fayyadfre/?hl=de">
+                  <FontAwesomeIcon
+                    className="text-light pl-2 display-4"
+                    icon={faInstagram}
                   />
                 </a>
               </p>
