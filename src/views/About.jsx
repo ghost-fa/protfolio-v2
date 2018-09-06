@@ -9,7 +9,7 @@ class About extends Component {
   render() {
     return (
       <Fragment>
-        <img src={Office} className=" img-fluid" alt="office" />
+        <img src={Office} className=" img-fluid mb-5" alt="office" />
         <section className="container">
           <h2 className=" pb-2">who i am:</h2>
           <ul className="h5 font-weight-bold ">

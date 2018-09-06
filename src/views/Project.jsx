@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import Berlin from '../images/Berlin6.jpg';
 
-import { Card, CardBody, CardTitle, CardDeck, Badge } from 'reactstrap';
+import { Card, CardBody, CardTitle, CardDeck,  Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import projects from '../projects.json';
 
@@ -27,13 +27,13 @@ class Project extends Component {
               <CardBody>
                 <div>
                   {project.tags.map(tag => (
-                    <Badge key={tag} color="primary text-center" pill>
+                    <Button key={tag} className=" m-2 text-center" color="info" >
                       {tag}
-                    </Badge>
+                    </Button>
                   ))}
                 </div>
-                <Link className="vtn btn-primary " to={`/projects/${i}`}>
-                  see project
+                <Link className="btn btn-dark text-align-center" to={`/projects/${i}`}>
+                  go to project > >
                 </Link>
               </CardBody>
             </Card>

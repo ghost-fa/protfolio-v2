@@ -3,7 +3,8 @@ import React, { Fragment } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebookSquare,
-  faSnapchat
+  faLinkedin,
+  faGithub
 } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
@@ -21,8 +22,15 @@ const Footer = () => {
                     icon={faFacebookSquare}
                   />
                 </a>
-                <a href="">
-                  <FontAwesomeIcon className="display-4 text-light" icon={faSnapchat} />
+                <a href="https://www.linkedin.com/in/fayad-alkhadra-577248170/">
+                  <FontAwesomeIcon className="display-4 pl-2 text-light" icon={faLinkedin} />
+                </a>
+
+                <a href="https://github.com/ghost-fa">
+                  <FontAwesomeIcon
+                    className="text-light pl-2y display-4"
+                    icon={faGithub}
+                  />
                 </a>
               </p>
             </div>

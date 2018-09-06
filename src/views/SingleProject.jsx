@@ -14,17 +14,20 @@ class SingleProject extends Component {
     const project = projects[id] || {};
     return (
       <Fragment>
+        <div className="container text-center">
         <h2>{project.title}</h2>
-        <img className="img-fluid" src={project.imageUrl} alt={project.title} />
+        <img className="img-fluid " src={project.imageUrl} alt={project.title} />
         <p>{project.description}</p>
-        <div className="tags">
+        <div className="  mb-2 ">
           {project.tags.map(tag => (
-            <Badge key={tag} color="primary" pill>
+            <Badge key={tag}  pill>
               {tag}
             </Badge>
           ))}
         </div>
-        <a href={project.projectUrl}>see online</a>
+        <a className="btn btn-dark " href={project.projectUrl}>see online</a>
+
+        </div>
       </Fragment>
     );
   }
