@@ -8,9 +8,9 @@ class Contact extends Component {
   render() {
     return (
       <Fragment>
-        <img src={Madred} className="mb-5 img-fluid" alt="Responsive image" />
+        <img src={Madred} className="mb-5 img-fluid" alt="Madred" />
 
-        <form class="bg-dark  container m-auto">
+        <form className="bg-dark  container m-auto">
           <div className=" mt-5">
             <div className="form-group">
               <label>Name</label>

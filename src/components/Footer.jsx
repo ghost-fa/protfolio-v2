@@ -9,7 +9,7 @@ import {
 const Footer = () => {
   return (
     <Fragment>
-      <footer className="mt-5">
+      <footer className="mt-5 bg-dark text-light">
         <div className="container ">
           <div className="row">
             <p className=" col-6 ">&copy;2018-web-up developer website</p>
@@ -17,12 +17,12 @@ const Footer = () => {
               <p>
                 <a href="https://www.facebook.com">
                   <FontAwesomeIcon
-                    className="display-4 "
+                    className="text-light display-4 "
                     icon={faFacebookSquare}
                   />
                 </a>
                 <a href="">
-                  <FontAwesomeIcon className="display-4" icon={faSnapchat} />
+                  <FontAwesomeIcon className="display-4 text-light" icon={faSnapchat} />
                 </a>
               </p>
             </div>

@@ -6,7 +6,8 @@ import {
   faHtml5,
   faCss3,
   faSass,
-  faPhp
+  faJsSquare,
+  faReact
 } from '@fortawesome/free-brands-svg-icons';
 import Html from '../images/Html.jpeg';
 const Study = () => {
@@ -55,10 +56,18 @@ const Study = () => {
           </div>
           <div className="col-lg-4 text-center">
             <FontAwesomeIcon
-              className="display-2 col-lg-12 text-center"
-              icon={faPhp}
-            />
-            <progress value="35" max="100" />&frac14;
+              className="display-2 col-lg-12 bg-warning text-center"
+              icon={faJsSquare}
+            /><p className="text-center">JavaScript</p>
+
+          </div>
+
+          <div className="col-lg-4">
+            <FontAwesomeIcon
+              className="display-2 col-lg-12 text-primary text-center"
+              icon={faReact}
+            /><p className="text-center">React</p>
+
           </div>
         </div>
       </main>

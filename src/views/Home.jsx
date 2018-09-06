@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Man from '../images/Man.jpg';
+
 class Home extends Component {
   componentDidMount() {
     document.title = 'Home | Fayad Alkhadra';
@@ -7,7 +8,7 @@ class Home extends Component {
   render() {
     return (
       <Fragment>
-        <img src={Man} className=" img-fluid" alt="tran image" />
+        <img src={Man} className=" img-fluid" alt="man walk on tran" />
 
         <main className="container to mt-5 ">
           <section className="m-auto">

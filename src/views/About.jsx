@@ -9,18 +9,18 @@ class About extends Component {
   render() {
     return (
       <Fragment>
-        <img src={Office} className=" img-fluid" alt="office image" />
+        <img src={Office} className=" img-fluid" alt="office" />
         <section className="container">
-          <h2 className="ml-5 pb-2">who i am:</h2>
-          <ul className="h5 font-weight-bold mb-5">
-            <li>I am Fayad Alkhadra i born in Damascus 19-3-1989. </li>
-            <li>I study accounting in Damascus I graduated in 1-01-2011 </li>
-            <li>I work in Clothing factory </li>
-            <li>
+          <h2 className=" pb-2">who i am:</h2>
+          <ul className="h5 font-weight-bold ">
+            <li className="pb-2">I am Fayad Alkhadra i born in Damascus 19-3-1989. </li>
+            <li className="pb-2">I study accounting in Damascus I graduated in 1-01-2011 </li>
+            <li className="pb-2">I work in Clothing factory </li>
+            <li className="pb-2">
               and then I come Germany I study B1 and then I join the course web
               develiper
             </li>
-            <li>I enjoy coding </li>
+            <li className="pb-2">I enjoy coding </li>
             <li>I hope I will be good and learn more and more </li>
           </ul>
         </section>

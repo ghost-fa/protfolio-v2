@@ -27,18 +27,12 @@ class Header extends Component {
   }
   render() {
     return (
-      <Navbar
-        expand="md"
-        style={{
-          backgroundColor: '#333',
-          color: 'white'
-        }}
-      >
+      <Navbar dark className="bg-dark my-nav" expand="md">
         <div className="container">
-          <NavbarBrand to="/">Alkhadra</NavbarBrand>
-          <NavbarToggler color="light " onClick={this.toggle} />
+          <NavbarBrand className="text-light">Alkhadra</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="ml-auto " navbar>
               <NavItem>
                 <NavLink to="/" activeClassName="active" tag={RRNavLink} exact>
                   Home
