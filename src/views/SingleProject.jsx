@@ -25,9 +25,11 @@ class SingleProject extends Component {
             </Badge>
           ))}
         </div>
-        <a className="btn btn-dark " href={project.projectUrl}>see online</a>
-
+        <a className="btn btn-dark " href={project.projectUrl}>see in github</a>
+         <a  className="btn btn-dark ml-3" href={project.onlineUrl} disabled>see online</a>
         </div>
+
+
       </Fragment>
     );
   }

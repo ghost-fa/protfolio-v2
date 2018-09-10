@@ -18,12 +18,13 @@
   },
 
   {
-    "title": "Guessing game",
-    "description": "A small game to gusse a number ",
-    "imageUrl": "https://via.placeholder.com/200x200",
-    "thumbnailUrl": "https://via.placeholder.com/200x200",
-    "projectUrl": "https://github.com/webup-dci-fbw7/gussing-game-Switch",
-    "tags": ["javascript", "bootstrap", "css", "html"]
+    "title": "Stars Game",
+    "description": "A small game to win the stars ",
+    "imageUrl": "/images-project/game1.jpeg",
+    "thumbnailUrl": "/images-project/game1.jpeg",
+    "projectUrl": "https://github.com/ghost-fa/game-kids/tree/master/src",
+    "onlineUrl":" http://192.168.0.142:3000/",
+    "tags": ["javascript","lodash","react","sass", "bootstrap", "html","fontawesome"]
   },
 
   {
@@ -32,6 +33,16 @@
     "imageUrl": "/images-project/roll-dice.jpeg",
     "thumbnailUrl": "/images-project/roll-dice.jpeg",
     "projectUrl": "https://github.com/ghost-fa/Roll-Dice",
+    "tags": ["javascript", "bootstrap", "css", "html"]
+  },
+
+  {
+    "title": "Choos Voice",
+    "description": "you can teyp anything you want and choos wich language and ply with the voice",
+    "imageUrl": "/images-project/voices.png",
+    "thumbnailUrl": "/images-project/voices.png",
+    "projectUrl": "https://github.com/ghost-fa/the-voice",
+    "onlineUrl":"file:///home/fayad/projects/the-voice/index.html",
     "tags": ["javascript", "bootstrap", "css", "html"]
   }
 ]
