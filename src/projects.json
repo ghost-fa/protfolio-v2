@@ -19,9 +19,9 @@
 
   {
     "title": "Stars Game",
-    "description": "A small game to win the stars ",
-    "imageUrl": "/images-project/game1.jpeg",
-    "thumbnailUrl": "/images-project/game1.jpeg",
+    "description": "A small game make you thing wich number you must choos",
+    "imageUrl": "/images-project/play-nani.jpeg",
+    "thumbnailUrl": "/images-project/play-nani.jpeg",
     "projectUrl": "https://github.com/ghost-fa/game-kids/tree/master/src",
     "onlineUrl":" http://192.168.0.142:3000/",
     "tags": ["javascript","lodash","react","sass", "bootstrap", "html","fontawesome"]
